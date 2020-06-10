@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			@@include('_header.html')
+			<section class="best">
+				<div class="container">
+					<div class="best__body">
+						<div class="best__content">
+							<div class="best__sub">
+								Choose
+							</div>
+							<div class="best__title">
+								These Best Treks For Spring
+							</div>
+							<div class="best__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum su spendisse ultrices gravida. Risus commodo viverra maec enas accumsan lacus vel facilisis. 
+							</div>
+							<div class="best__arrows">
+								<div class="best__arrow-left">
+									<img src="img/arrow.png">
+									<span class="counter">1</span>/
+								</div>
+								<div class="best__arrow-right">
+									<span class="quantitySlides"></span>
+									<img src="img/arrow.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="best__slider">
+					<div class="best__slide">
+						<img src="img/slide-7.jpg" alt="slide">
+					</div>
+					<div class="best__slide">
+						<img src="img/slide-6.jpg" alt="slide">
+					</div>
+					<div class="best__slide">
+						<img src="img/slide-5.jpg" alt="slide">
+					 </div>
+					<div class="best__slide">
+						<img src="img/slide-4.jpg" alt="slide">
+					</div>
+					<div class="best__slide">
+						<img src="img/slide-3.jpg" alt="slide">
+					</div>
+					<div class="best__slide">
+						<img src="img/slide-2.jpg" alt="slide">
+					</div>
+					<div class="best__slide">
+						<img src="img/slide-1.jpg"alt="slide">
+					</div>
+				</div>
+			</section>
+			<section class="were">
+				<div class="container">
+					<div class="were__body">
+						<div class="were__title">
+							We’re Largest & Safest Hiking Organisation
+						</div>
+						<div class="were__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="wantToStay" id="trek">
+				<div class="container">
+					<div class="wantToStay__body">
+						<div class="wantToStay__img">
+							<img src="img/wantToStay.png" alt="img">
+						</div>
+						<div class="wantToStay__content">
+							<div class="best__title">
+								Want To Stay In Touch With The Hiking World?
+							</div>
+							<div class="best__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+							</div>
+							<a class="header__btn wantToStay__btn" href="#">
+								Yes, Keep me posted!
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="overlay_popup">
+				<div class="popup" id="popup1">
+					<div class="object">
+						<form action= "" method= "">
+							<input placeholder="Name" type= "text" name= "name">
+							<input placeholder="E-mail" type= "text" name= "email">
+							<textarea placeholder="Message" rows= "10" cols= "45" name= "message"></textarea>
+							<button class="header__btn popup__btn" type= "submit">Submit</button>
+						</form>
+					</div>
+					<span class="popup__close"></span>
+				</div>
+			</div>
+			
+			@@include('_footer.html')
+		</div> <!-- wrapper -->
+
+
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
+		<script src="js/slick.min.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+	</body>
+</html>
